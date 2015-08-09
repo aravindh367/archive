@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5pu-nL-GMo">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--ImagePicker-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="first" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYb-nJ-VYV">
+                                <rect key="frame" x="102" y="56" width="101" height="30"/>
+                                <state key="normal" title="Pick Image">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="imagePicker:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lWv-aW-iq3"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hfe-Kb-lyF">
+                                <rect key="frame" x="40" y="191" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36374348750000002" green="0.3907647205" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ImagePicker" id="XXM-x8-KtM"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="Hfe-Kb-lyF" id="W4n-tN-EuM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="487" y="281"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="VsH-Q9-Xkt">
+            <objects>
+                <viewController storyboardIdentifier="second" id="rpC-Th-DAm" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Jf-Jw-IYg"/>
+                        <viewControllerLayoutGuide type="bottom" id="WNh-po-h1O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Xy-t5-Kef">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQs-de-edy">
+                                <rect key="frame" x="95" y="170" width="101" height="30"/>
+                                <state key="normal" title="Navigate">
+                                    <color key="titleColor" red="0.93732258710000005" green="1" blue="0.77046528569999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="navigateAction:" destination="rpC-Th-DAm" eventType="touchUpInside" id="IBg-mc-jCj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21146625420000001" green="0.5" blue="0.16671148429999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FB8-Ji-aXl"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Qc-Ty-RyN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1283" y="274"/>
+        </scene>
+        <!--PresentandDismiss-->
+        <scene sceneID="rs8-90-nXA">
+            <objects>
+                <viewController storyboardIdentifier="third" id="axg-C9-rZf" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kP4-uS-ipx"/>
+                        <viewControllerLayoutGuide type="bottom" id="qdD-1c-QRj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RSJ-vd-psN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guS-z5-9P8">
+                                <rect key="frame" x="89" y="94" width="142" height="30"/>
+                                <state key="normal" title="Present And Dismiss">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="presentAction:" destination="axg-C9-rZf" eventType="touchUpInside" id="C1d-5n-PzI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.82648255960000006" blue="0.77698211409999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PresentandDismiss" id="eNL-Ca-Yxd"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OMk-Yv-hcm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1649" y="266"/>
+        </scene>
+        <!--Go Back-->
+        <scene sceneID="3nX-l0-4N5">
+            <objects>
+                <viewController storyboardIdentifier="fourth" id="FRZ-Md-CVe" customClass="FourthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RbZ-B5-m1c"/>
+                        <viewControllerLayoutGuide type="bottom" id="cSw-La-lZT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6PE-d3-ZDe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5B-S2-t7z">
+                                <rect key="frame" x="128" y="134" width="64" height="30"/>
+                                <state key="normal" title="Go Back ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissAction:" destination="FRZ-Md-CVe" eventType="touchUpInside" id="zBH-Js-UUm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93732258710000005" green="1" blue="0.77046528569999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Go Back" id="mnG-b1-dzX"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bni-XC-vtw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2014" y="266"/>
+        </scene>
+        <!--Fifth View Controller-->
+        <scene sceneID="DuC-DW-14n">
+            <objects>
+                <viewController storyboardIdentifier="fifth" id="2ko-qc-aJe" customClass="FifthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4sy-Id-x44"/>
+                        <viewControllerLayoutGuide type="bottom" id="dQS-8P-zM7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Bu-Nj-M5z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EZB-ZM-Lmr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2ko-qc-aJe" id="A6C-0F-dXp"/>
+                                    <outlet property="delegate" destination="2ko-qc-aJe" id="Z6t-Jd-Xbk"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49766203910000001" green="0.80334586129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X6M-KI-oEt"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s6U-Jy-aUX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3157" y="266"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ZTo-7o-izQ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5pu-nL-GMo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="TSo-fl-2jJ">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="oOc-ea-N8L"/>
+                        <segue destination="XQ5-l6-def" kind="relationship" relationship="viewControllers" id="A8l-Gt-1M6"/>
+                        <segue destination="axg-C9-rZf" kind="relationship" relationship="viewControllers" id="i9R-ZG-0rN"/>
+                        <segue destination="FRZ-Md-CVe" kind="relationship" relationship="viewControllers" id="kQG-UC-5tJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5A5-dU-XsU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="149" y="286"/>
+        </scene>
+        <!--Navigate-->
+        <scene sceneID="j3a-bN-1gS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XQ5-l6-def" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Navigate" id="Mw1-Vk-F5H"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TRE-Zx-J8P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rpC-Th-DAm" kind="relationship" relationship="rootViewController" id="HN4-d6-Jkk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NIJ-zs-Scn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896" y="266"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="z6D-F8-w8u">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sAm-qR-CQb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="P8x-cN-VAk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2ko-qc-aJe" kind="relationship" relationship="rootViewController" id="Paq-Se-Aq7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jO2-gY-8Y2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2704" y="266"/>
+        </scene>
+    </scenes>
+</document>

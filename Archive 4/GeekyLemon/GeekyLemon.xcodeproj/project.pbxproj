@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6CB2A471B4D6510005EE326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB2A461B4D6510005EE326 /* main.m */; };
+		E6CB2A4A1B4D6510005EE326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB2A491B4D6510005EE326 /* AppDelegate.m */; };
+		E6CB2A4D1B4D6510005EE326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB2A4C1B4D6510005EE326 /* ViewController.m */; };
+		E6CB2A501B4D6510005EE326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6CB2A4E1B4D6510005EE326 /* Main.storyboard */; };
+		E6CB2A521B4D6510005EE326 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CB2A511B4D6510005EE326 /* Images.xcassets */; };
+		E6CB2A551B4D6510005EE326 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CB2A531B4D6510005EE326 /* LaunchScreen.xib */; };
+		E6CB2A611B4D6510005EE326 /* GeekyLemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB2A601B4D6510005EE326 /* GeekyLemonTests.m */; };
+		E6CB2A6B1B4D6C7D005EE326 /* barcelona.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E6CB2A6A1B4D6C7D005EE326 /* barcelona.jpeg */; };
+		E6CB2A6E1B4D75ED005EE326 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB2A6D1B4D75ED005EE326 /* SecondViewController.m */; };
+		E6CB2A711B4D7744005EE326 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB2A701B4D7744005EE326 /* ThirdViewController.m */; };
+		E6CB2A741B4D7F13005EE326 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB2A731B4D7F13005EE326 /* FourthViewController.m */; };
+		E6DD3A741B5024D700CB4A46 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DD3A731B5024D700CB4A46 /* FifthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6CB2A5B1B4D6510005EE326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CB2A391B4D6510005EE326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6CB2A401B4D6510005EE326;
+			remoteInfo = GeekyLemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6CB2A411B4D6510005EE326 /* GeekyLemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekyLemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CB2A451B4D6510005EE326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6CB2A461B4D6510005EE326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6CB2A481B4D6510005EE326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6CB2A491B4D6510005EE326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6CB2A4B1B4D6510005EE326 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6CB2A4C1B4D6510005EE326 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6CB2A4F1B4D6510005EE326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6CB2A511B4D6510005EE326 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6CB2A541B4D6510005EE326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E6CB2A5A1B4D6510005EE326 /* GeekyLemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeekyLemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CB2A5F1B4D6510005EE326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6CB2A601B4D6510005EE326 /* GeekyLemonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeekyLemonTests.m; sourceTree = "<group>"; };
+		E6CB2A6A1B4D6C7D005EE326 /* barcelona.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcelona.jpeg; sourceTree = "<group>"; };
+		E6CB2A6C1B4D75ED005EE326 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E6CB2A6D1B4D75ED005EE326 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E6CB2A6F1B4D7744005EE326 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E6CB2A701B4D7744005EE326 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		E6CB2A721B4D7F13005EE326 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		E6CB2A731B4D7F13005EE326 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		E6DD3A721B5024D700CB4A46 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FifthViewController.h; path = ../FifthViewController.h; sourceTree = "<group>"; };
+		E6DD3A731B5024D700CB4A46 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FifthViewController.m; path = ../FifthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6CB2A3E1B4D6510005EE326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CB2A571B4D6510005EE326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6CB2A381B4D6510005EE326 = {
+			isa = PBXGroup;
+			children = (
+				E6CB2A431B4D6510005EE326 /* GeekyLemon */,
+				E6CB2A5D1B4D6510005EE326 /* GeekyLemonTests */,
+				E6CB2A421B4D6510005EE326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6CB2A421B4D6510005EE326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6CB2A411B4D6510005EE326 /* GeekyLemon.app */,
+				E6CB2A5A1B4D6510005EE326 /* GeekyLemonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6CB2A431B4D6510005EE326 /* GeekyLemon */ = {
+			isa = PBXGroup;
+			children = (
+				E6DD3A721B5024D700CB4A46 /* FifthViewController.h */,
+				E6DD3A731B5024D700CB4A46 /* FifthViewController.m */,
+				E6CB2A481B4D6510005EE326 /* AppDelegate.h */,
+				E6CB2A491B4D6510005EE326 /* AppDelegate.m */,
+				E6CB2A4B1B4D6510005EE326 /* ViewController.h */,
+				E6CB2A4C1B4D6510005EE326 /* ViewController.m */,
+				E6CB2A6C1B4D75ED005EE326 /* SecondViewController.h */,
+				E6CB2A6D1B4D75ED005EE326 /* SecondViewController.m */,
+				E6CB2A6F1B4D7744005EE326 /* ThirdViewController.h */,
+				E6CB2A701B4D7744005EE326 /* ThirdViewController.m */,
+				E6CB2A721B4D7F13005EE326 /* FourthViewController.h */,
+				E6CB2A731B4D7F13005EE326 /* FourthViewController.m */,
+				E6CB2A6A1B4D6C7D005EE326 /* barcelona.jpeg */,
+				E6CB2A4E1B4D6510005EE326 /* Main.storyboard */,
+				E6CB2A511B4D6510005EE326 /* Images.xcassets */,
+				E6CB2A531B4D6510005EE326 /* LaunchScreen.xib */,
+				E6CB2A441B4D6510005EE326 /* Supporting Files */,
+			);
+			path = GeekyLemon;
+			sourceTree = "<group>";
+		};
+		E6CB2A441B4D6510005EE326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6CB2A451B4D6510005EE326 /* Info.plist */,
+				E6CB2A461B4D6510005EE326 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6CB2A5D1B4D6510005EE326 /* GeekyLemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6CB2A601B4D6510005EE326 /* GeekyLemonTests.m */,
+				E6CB2A5E1B4D6510005EE326 /* Supporting Files */,
+			);
+			path = GeekyLemonTests;
+			sourceTree = "<group>";
+		};
+		E6CB2A5E1B4D6510005EE326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6CB2A5F1B4D6510005EE326 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6CB2A401B4D6510005EE326 /* GeekyLemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CB2A641B4D6510005EE326 /* Build configuration list for PBXNativeTarget "GeekyLemon" */;
+			buildPhases = (
+				E6CB2A3D1B4D6510005EE326 /* Sources */,
+				E6CB2A3E1B4D6510005EE326 /* Frameworks */,
+				E6CB2A3F1B4D6510005EE326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeekyLemon;
+			productName = GeekyLemon;
+			productReference = E6CB2A411B4D6510005EE326 /* GeekyLemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6CB2A591B4D6510005EE326 /* GeekyLemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CB2A671B4D6510005EE326 /* Build configuration list for PBXNativeTarget "GeekyLemonTests" */;
+			buildPhases = (
+				E6CB2A561B4D6510005EE326 /* Sources */,
+				E6CB2A571B4D6510005EE326 /* Frameworks */,
+				E6CB2A581B4D6510005EE326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6CB2A5C1B4D6510005EE326 /* PBXTargetDependency */,
+			);
+			name = GeekyLemonTests;
+			productName = GeekyLemonTests;
+			productReference = E6CB2A5A1B4D6510005EE326 /* GeekyLemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6CB2A391B4D6510005EE326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Greens;
+				TargetAttributes = {
+					E6CB2A401B4D6510005EE326 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E6CB2A591B4D6510005EE326 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E6CB2A401B4D6510005EE326;
+					};
+				};
+			};
+			buildConfigurationList = E6CB2A3C1B4D6510005EE326 /* Build configuration list for PBXProject "GeekyLemon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6CB2A381B4D6510005EE326;
+			productRefGroup = E6CB2A421B4D6510005EE326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6CB2A401B4D6510005EE326 /* GeekyLemon */,
+				E6CB2A591B4D6510005EE326 /* GeekyLemonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6CB2A3F1B4D6510005EE326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CB2A501B4D6510005EE326 /* Main.storyboard in Resources */,
+				E6CB2A6B1B4D6C7D005EE326 /* barcelona.jpeg in Resources */,
+				E6CB2A551B4D6510005EE326 /* LaunchScreen.xib in Resources */,
+				E6CB2A521B4D6510005EE326 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CB2A581B4D6510005EE326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6CB2A3D1B4D6510005EE326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CB2A741B4D7F13005EE326 /* FourthViewController.m in Sources */,
+				E6CB2A6E1B4D75ED005EE326 /* SecondViewController.m in Sources */,
+				E6CB2A711B4D7744005EE326 /* ThirdViewController.m in Sources */,
+				E6CB2A4D1B4D6510005EE326 /* ViewController.m in Sources */,
+				E6CB2A4A1B4D6510005EE326 /* AppDelegate.m in Sources */,
+				E6DD3A741B5024D700CB4A46 /* FifthViewController.m in Sources */,
+				E6CB2A471B4D6510005EE326 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CB2A561B4D6510005EE326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CB2A611B4D6510005EE326 /* GeekyLemonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6CB2A5C1B4D6510005EE326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6CB2A401B4D6510005EE326 /* GeekyLemon */;
+			targetProxy = E6CB2A5B1B4D6510005EE326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6CB2A4E1B4D6510005EE326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6CB2A4F1B4D6510005EE326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6CB2A531B4D6510005EE326 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6CB2A541B4D6510005EE326 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6CB2A621B4D6510005EE326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6CB2A631B4D6510005EE326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6CB2A651B4D6510005EE326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeekyLemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6CB2A661B4D6510005EE326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeekyLemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6CB2A681B4D6510005EE326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeekyLemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeekyLemon.app/GeekyLemon";
+			};
+			name = Debug;
+		};
+		E6CB2A691B4D6510005EE326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeekyLemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeekyLemon.app/GeekyLemon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6CB2A3C1B4D6510005EE326 /* Build configuration list for PBXProject "GeekyLemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CB2A621B4D6510005EE326 /* Debug */,
+				E6CB2A631B4D6510005EE326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CB2A641B4D6510005EE326 /* Build configuration list for PBXNativeTarget "GeekyLemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CB2A651B4D6510005EE326 /* Debug */,
+				E6CB2A661B4D6510005EE326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CB2A671B4D6510005EE326 /* Build configuration list for PBXNativeTarget "GeekyLemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CB2A681B4D6510005EE326 /* Debug */,
+				E6CB2A691B4D6510005EE326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6CB2A391B4D6510005EE326 /* Project object */;
+}

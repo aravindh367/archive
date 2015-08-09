@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6CD2AAC1B47749F00570694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD2AAB1B47749F00570694 /* main.m */; };
+		E6CD2AAF1B47749F00570694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD2AAE1B47749F00570694 /* AppDelegate.m */; };
+		E6CD2AB21B47749F00570694 /* DBTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6CD2AB01B47749F00570694 /* DBTask.xcdatamodeld */; };
+		E6CD2AB51B47749F00570694 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD2AB41B47749F00570694 /* ViewController.m */; };
+		E6CD2AB81B47749F00570694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6CD2AB61B47749F00570694 /* Main.storyboard */; };
+		E6CD2ABA1B47749F00570694 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CD2AB91B47749F00570694 /* Images.xcassets */; };
+		E6CD2ABD1B47749F00570694 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CD2ABB1B47749F00570694 /* LaunchScreen.xib */; };
+		E6CD2AC91B47749F00570694 /* DBTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD2AC81B47749F00570694 /* DBTaskTests.m */; };
+		E6CD2AD41B4774FB00570694 /* databasecon.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD2AD31B4774FB00570694 /* databasecon.m */; };
+		E6CD2AD61B4775C400570694 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CD2AD51B4775C400570694 /* libsqlite3.dylib */; };
+		E6CD2AD81B47770100570694 /* sathishDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E6CD2AD71B47770100570694 /* sathishDB.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6CD2AC31B47749F00570694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CD2A9E1B47749F00570694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6CD2AA51B47749F00570694;
+			remoteInfo = DBTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6CD2AA61B47749F00570694 /* DBTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CD2AAA1B47749F00570694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6CD2AAB1B47749F00570694 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6CD2AAD1B47749F00570694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6CD2AAE1B47749F00570694 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6CD2AB11B47749F00570694 /* DBTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBTask.xcdatamodel; sourceTree = "<group>"; };
+		E6CD2AB31B47749F00570694 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6CD2AB41B47749F00570694 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6CD2AB71B47749F00570694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6CD2AB91B47749F00570694 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6CD2ABC1B47749F00570694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E6CD2AC21B47749F00570694 /* DBTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CD2AC71B47749F00570694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6CD2AC81B47749F00570694 /* DBTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBTaskTests.m; sourceTree = "<group>"; };
+		E6CD2AD21B4774FB00570694 /* databasecon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = databasecon.h; sourceTree = "<group>"; };
+		E6CD2AD31B4774FB00570694 /* databasecon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = databasecon.m; sourceTree = "<group>"; };
+		E6CD2AD51B4775C400570694 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		E6CD2AD71B47770100570694 /* sathishDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = sathishDB.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6CD2AA31B47749F00570694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CD2AD61B4775C400570694 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CD2ABF1B47749F00570694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6CD2A9D1B47749F00570694 = {
+			isa = PBXGroup;
+			children = (
+				E6CD2AD51B4775C400570694 /* libsqlite3.dylib */,
+				E6CD2AA81B47749F00570694 /* DBTask */,
+				E6CD2AC51B47749F00570694 /* DBTaskTests */,
+				E6CD2AA71B47749F00570694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6CD2AA71B47749F00570694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6CD2AA61B47749F00570694 /* DBTask.app */,
+				E6CD2AC21B47749F00570694 /* DBTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6CD2AA81B47749F00570694 /* DBTask */ = {
+			isa = PBXGroup;
+			children = (
+				E6CD2AAD1B47749F00570694 /* AppDelegate.h */,
+				E6CD2AAE1B47749F00570694 /* AppDelegate.m */,
+				E6CD2AD21B4774FB00570694 /* databasecon.h */,
+				E6CD2AD31B4774FB00570694 /* databasecon.m */,
+				E6CD2AB31B47749F00570694 /* ViewController.h */,
+				E6CD2AB41B47749F00570694 /* ViewController.m */,
+				E6CD2AD71B47770100570694 /* sathishDB.sqlite */,
+				E6CD2AB61B47749F00570694 /* Main.storyboard */,
+				E6CD2AB91B47749F00570694 /* Images.xcassets */,
+				E6CD2ABB1B47749F00570694 /* LaunchScreen.xib */,
+				E6CD2AB01B47749F00570694 /* DBTask.xcdatamodeld */,
+				E6CD2AA91B47749F00570694 /* Supporting Files */,
+			);
+			path = DBTask;
+			sourceTree = "<group>";
+		};
+		E6CD2AA91B47749F00570694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6CD2AAA1B47749F00570694 /* Info.plist */,
+				E6CD2AAB1B47749F00570694 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6CD2AC51B47749F00570694 /* DBTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6CD2AC81B47749F00570694 /* DBTaskTests.m */,
+				E6CD2AC61B47749F00570694 /* Supporting Files */,
+			);
+			path = DBTaskTests;
+			sourceTree = "<group>";
+		};
+		E6CD2AC61B47749F00570694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6CD2AC71B47749F00570694 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6CD2AA51B47749F00570694 /* DBTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CD2ACC1B47749F00570694 /* Build configuration list for PBXNativeTarget "DBTask" */;
+			buildPhases = (
+				E6CD2AA21B47749F00570694 /* Sources */,
+				E6CD2AA31B47749F00570694 /* Frameworks */,
+				E6CD2AA41B47749F00570694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBTask;
+			productName = DBTask;
+			productReference = E6CD2AA61B47749F00570694 /* DBTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6CD2AC11B47749F00570694 /* DBTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CD2ACF1B47749F00570694 /* Build configuration list for PBXNativeTarget "DBTaskTests" */;
+			buildPhases = (
+				E6CD2ABE1B47749F00570694 /* Sources */,
+				E6CD2ABF1B47749F00570694 /* Frameworks */,
+				E6CD2AC01B47749F00570694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6CD2AC41B47749F00570694 /* PBXTargetDependency */,
+			);
+			name = DBTaskTests;
+			productName = DBTaskTests;
+			productReference = E6CD2AC21B47749F00570694 /* DBTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6CD2A9E1B47749F00570694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Greens;
+				TargetAttributes = {
+					E6CD2AA51B47749F00570694 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E6CD2AC11B47749F00570694 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E6CD2AA51B47749F00570694;
+					};
+				};
+			};
+			buildConfigurationList = E6CD2AA11B47749F00570694 /* Build configuration list for PBXProject "DBTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6CD2A9D1B47749F00570694;
+			productRefGroup = E6CD2AA71B47749F00570694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6CD2AA51B47749F00570694 /* DBTask */,
+				E6CD2AC11B47749F00570694 /* DBTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6CD2AA41B47749F00570694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CD2AB81B47749F00570694 /* Main.storyboard in Resources */,
+				E6CD2ABD1B47749F00570694 /* LaunchScreen.xib in Resources */,
+				E6CD2AD81B47770100570694 /* sathishDB.sqlite in Resources */,
+				E6CD2ABA1B47749F00570694 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CD2AC01B47749F00570694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6CD2AA21B47749F00570694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CD2AAF1B47749F00570694 /* AppDelegate.m in Sources */,
+				E6CD2AD41B4774FB00570694 /* databasecon.m in Sources */,
+				E6CD2AAC1B47749F00570694 /* main.m in Sources */,
+				E6CD2AB51B47749F00570694 /* ViewController.m in Sources */,
+				E6CD2AB21B47749F00570694 /* DBTask.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CD2ABE1B47749F00570694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CD2AC91B47749F00570694 /* DBTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6CD2AC41B47749F00570694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6CD2AA51B47749F00570694 /* DBTask */;
+			targetProxy = E6CD2AC31B47749F00570694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6CD2AB61B47749F00570694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6CD2AB71B47749F00570694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6CD2ABB1B47749F00570694 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6CD2ABC1B47749F00570694 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6CD2ACA1B47749F00570694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6CD2ACB1B47749F00570694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6CD2ACD1B47749F00570694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DBTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6CD2ACE1B47749F00570694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DBTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6CD2AD01B47749F00570694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DBTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBTask.app/DBTask";
+			};
+			name = Debug;
+		};
+		E6CD2AD11B47749F00570694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DBTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBTask.app/DBTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6CD2AA11B47749F00570694 /* Build configuration list for PBXProject "DBTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CD2ACA1B47749F00570694 /* Debug */,
+				E6CD2ACB1B47749F00570694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CD2ACC1B47749F00570694 /* Build configuration list for PBXNativeTarget "DBTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CD2ACD1B47749F00570694 /* Debug */,
+				E6CD2ACE1B47749F00570694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CD2ACF1B47749F00570694 /* Build configuration list for PBXNativeTarget "DBTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CD2AD01B47749F00570694 /* Debug */,
+				E6CD2AD11B47749F00570694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6CD2AB01B47749F00570694 /* DBTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6CD2AB11B47749F00570694 /* DBTask.xcdatamodel */,
+			);
+			currentVersion = E6CD2AB11B47749F00570694 /* DBTask.xcdatamodel */;
+			path = DBTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6CD2A9E1B47749F00570694 /* Project object */;
+}
